@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catapang Drill 1</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">;;
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>;;
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: white
+
+    }
+
+    h2{
+        text-align: center;
+        color: rgb(159, 129, 91)
+    }
+
+
+    input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 1px solid #88d5e2;
+        border-radius: 5px;
+        font-size: 16px;
+
+    }
+
+
+    botton{
+        width: 100%;
+        padding: 10px;
+        background-color:white;
+        font: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+     }
+
+
+     button:hover{
+        background-color: cyan;
+
+     }
+
+     p{
+        font-size: 16px;
+        margin-top: 10px;
+     }
+     #average, #result{
+        font-weight: bold;
+        color: lightgoldenrodyellow;
+     }
+</style>
+
+<head>
+<body>
+    <h2>Simple average calculator</h2>
+
+    <p>Score Average calculator</p>
+    <input id="score1" type="text">
+    <input id="score2"  type="text">
+
+
+    <p>Average: <span id="average"></span></p>
+    <p>Passed?: <span id="average"></span></p>
+
+    <script type="py" src="main.py"></script>
+</body>
+</html>
